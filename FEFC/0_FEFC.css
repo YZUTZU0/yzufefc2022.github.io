@@ -1,0 +1,45 @@
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    height:70px;
+}
+.navbar{
+    background-color: rgb(13,106,245);
+}
+
+li a {
+    color:aliceblue !important;
+    font-size:20px;
+    font-family: fantasy;
+}
+li a:hover{
+    color: rgb(12, 12, 12)!important;
+    background-color: whitesmoke;
+    
+}
+.navbar-toggler{
+    background-color: whitesmoke;
+}
+
+.nav-link {
+    padding:20px;
+}
+
+@media (max-width:600px){
+    nav{
+        height:auto;
+    }
+    .nav-link {
+        padding:10px;
+    }
+}
+
+.row{
+    font-family: fantasy;
+    margin-top: 50px;
+    height: 80px;
+}
+
+
